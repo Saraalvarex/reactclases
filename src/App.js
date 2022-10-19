@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import Contador from './components/Contador';
+import DibujosComplejos from './components/DibujosComplejos';
+import DibujoComplejoArray from './components/DibujoComplejoArray';
+import PadreDeportes from './components/PadreDeportes';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<Contador inicio="1"/>
+      <DibujosComplejos/>
+      <DibujoComplejoArray/>*/}
+      <PadreDeportes/>
     </div>
   );
 }
