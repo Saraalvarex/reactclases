@@ -23,7 +23,8 @@ class DibujosComplejos extends Component{
         return (<div>
             <h1>Dibujos complejos</h1>
             {/*Si quiero que lo ejecute cuando carga la página
-            le pongo parentesis, si no le pongo parentesis espera un CUANDO*/}
+            le pongo parentesis, si no le pongo parentesis espera
+             un CUANDO*/}
             <ul>{this.dibujarNumeros()}</ul>
         </div>)
     }
